@@ -17,8 +17,11 @@
 
 .status .admin {
 	display: none;
+	text-align: right;
 }
 
 .status.hover .admin {
 	display: inline;
+	text-align: right;
 }
+

@@ -3,3 +3,9 @@ miroslav:
   last_name: "Kralik"
   email: "miroslav_kralik@hotmail.com"
   profile_name: "mkralik"
+
+miroslav2: 
+  first_name: "Miroslav2"
+  last_name: "Kralik2"
+  email: "miroslav_kralik2@hotmail.com"
+  profile_name: "mkralik2"
