@@ -5,7 +5,14 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3' # DB
+group :development do
+	gem 'sqlite3' # DB
+end
+
+group :production do
+	gem 'pg'
+end
+
 gem 'devise' # User registration
 gem 'simple_form' # Form styling
 
